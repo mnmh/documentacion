@@ -3,19 +3,51 @@
     background-color: $gris1;
     min-height: 100vh;
 
+    .logoMMC {
+        width: 150px;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        margin: 0 auto;
+
+        .st1{
+            fill:$gris2;
+            stroke:$claro1;
+            stroke-width:0.9682;
+            stroke-miterlimit:10;
+        }
+        .st2{
+            fill:none;
+            stroke:$claro1;
+            stroke-width:1.1427;
+            stroke-linecap:round;
+            stroke-linejoin:round;
+            stroke-miterlimit:10;
+        }
+    }
+    
+
     ul {
         margin: 0;
         padding: 0;
         margin-bottom: 1px;
 
         li {
-            padding: 10px;
-            color: $gris1;
-            &.title {
-                background-color: $claro1;
-                font-weight: bold;
-                color: $frost4;
+            a{
+                display: block;
+                padding: 10px;
+                color: $gris1;
+                &.title {
+                    background-color: $claro1;
+                    font-weight: bold;
+                    color: $frost4;
+    
+                    &:hover {
+                        background-color: $verde;
+                        color: $claro3;
+                    }
+                }
             }
+            
         }
     }
 }
