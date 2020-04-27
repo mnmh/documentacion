@@ -2,6 +2,9 @@
     width: 300px;
     background-color: $gris1;
     min-height: 100vh;
+    border-right: 1px solid $gris1;
+    position: fixed;
+    left: 0;
 
     .logoMMC {
         width: 150px;
@@ -10,7 +13,7 @@
         margin: 0 auto;
 
         .st1{
-            fill:$gris2;
+            fill:$gris3;
             stroke:$claro1;
             stroke-width:0.9682;
             stroke-miterlimit:10;
@@ -32,22 +35,48 @@
         margin-bottom: 1px;
 
         li {
+            font-size: 1em;
+            display: none;
+            font-family: 'Roboto Slab';
+
+
+            &:first-child {
+                display: block;
+                font-family: 'Roboto';
+            }
             a{
                 display: block;
                 padding: 10px;
-                color: $gris1;
+                color: $claro1;
+                background-color: $gris3;
+                text-decoration: none;
+                padding-left: 15px;
+                font-size: 0.75em;
+
                 &.title {
                     background-color: $claro1;
                     font-weight: bold;
                     color: $frost4;
+                    padding-left: 10px;
+                    font-size: 1em;
     
-                    &:hover {
-                        background-color: $verde;
+                    &:hover{
+                        background-color: $frost1;
                         color: $claro3;
                     }
                 }
             }
-            
+        }
+
+        &.active {
+             li {
+                 display: block;
+
+                 a.title {
+                    background-color: $frost1;
+                    color: $claro3;
+                 }
+             }   
         }
     }
 }

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Roboto+Slab:wght@300&family=Roboto:wght@300;700&display=swap');
+
+
 $gris1: #4c566a;
 $gris2: #434c5e;
 $gris3: #3b4252;
@@ -18,4 +21,11 @@ $amarillo: #EBCB8B;
 $verde: #A3BE8C;
 $morado: #B48EAD;
 
-@import './nav.scss'
+
+body {
+    background-color: $claro2;
+    font-family: Roboto, sans-serif;
+}
+
+@import './nav.scss';
+@import './general.scss';

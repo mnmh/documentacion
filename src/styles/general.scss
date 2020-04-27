@@ -1,0 +1,65 @@
+#container {
+    display: flex;
+    padding-left: 350px;
+}
+
+#insideDoc {
+    max-width: 700px;
+
+    h1 {
+        color: $frost3;
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-weight: normal;
+        font-size: 1.1em;
+        padding: 5px;
+        padding-left: 10px;
+        background-color: $claro3;
+        color: $gris1;
+        margin-top: 7.5vh;
+    }
+
+    p{
+        font-family: 'Roboto Slab';
+        color: $gris1;
+
+        b {
+            color: $rojo;
+        }
+    }
+
+    .link {
+        font-family: 'Inconsolata';
+        background-color: $claro1;
+        color: $frost3;
+        display: inline-block;
+        padding: 5px;
+        font-size: 0.9em;
+        border-radius: 5px;
+
+        &:hover {
+            color: $naranja;
+        }
+    }
+
+    ul{
+        font-family: 'Roboto Slab';
+        color: $gris1;
+        background-color: $claro3;
+        padding: 0;
+        margin-left: 50px;
+        list-style: none;
+        padding: 5px;
+        font-size: 0.8em;
+
+        li {
+            margin-bottom: 5px;
+
+            b {
+                color: $morado;
+            }
+        }
+    }
+}
