@@ -26,6 +26,8 @@ class Inicio extends Component {
                         <li><b>Laura Junco:</b> diseño digital</li>
                         <li><b>Diego Corzo:</b> diseño editorial</li>
                         <li><b>Angela Eraso:</b> gestión de la colección digital</li>
+                        <li><b>Mauricio Ramírez:</b> apoyo audiovisual</li>
+                        <li><b>Maria Camila López:</b> estrategia digital</li>
                     </ul>
                     <p>También agradecemos a las personas que han estado en el equipo y han hecho valiosos aportes al trabajo del laboratorio:</p>
                     <ul>
