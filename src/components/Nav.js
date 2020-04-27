@@ -42,9 +42,12 @@ class Nav extends Component {
                 <ul className={(this.state.selected == '/rutas-desarrollo') ? 'active' : ''}>
                     <Link to="rutas-desarrollo">
                         <li className="title" onClick={this.changeRuta}>Ruta de desarrollo colaborativo</li>
+                    </Link>
                         <li>Introducción</li>
                         <li>La ruta de desarrollo</li>
-                    </Link>
+                </ul>
+                <ul>
+                    <li className="title">Radio en vivo</li>
                 </ul>
                 <ul>
                     <li className="title">Cajas de memoria</li>
@@ -62,13 +65,13 @@ class Nav extends Component {
                     <li className="title">App colorea</li>
                 </ul>
                 <ul>
-                    <li className="title">Radio en vivo</li>
-                </ul>
-                <ul>
                     <li className="title">Visualizaciones de datos</li>
                 </ul>
                 <ul>
                     <li className="title">API centro de contenido</li>
+                </ul>
+                <ul>
+                    <li className="title">API archivo de derechos humanos</li>
                 </ul>
             </nav>
             </>
