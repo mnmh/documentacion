@@ -9,7 +9,15 @@ class Nav extends Component {
         return(
             <>
             <nav id="sideNav">
-                
+                <ul>
+                    <li className="title">Sistema de diseño</li>
+                </ul>
+                <ul>
+                    <li className="title">Plataforma web</li>
+                </ul>
+                <ul>
+                    <li className="title">App colorea</li>
+                </ul>
             </nav>
             </>
         )

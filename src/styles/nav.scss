@@ -1,5 +1,21 @@
 #sideNav {
     width: 300px;
-    background-color: #333;
+    background-color: $gris1;
     min-height: 100vh;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 1px;
+
+        li {
+            padding: 10px;
+            color: $gris1;
+            &.title {
+                background-color: $claro1;
+                font-weight: bold;
+                color: $frost4;
+            }
+        }
+    }
 }
