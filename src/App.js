@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './styles/source.scss';
+
+import Inicio from './paginas/Inicio'
 
 function App() {
   return (
     <>
-
+      <Inicio />
     </>
   );
 }
