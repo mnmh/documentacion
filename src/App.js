@@ -1,15 +1,38 @@
-import React from 'react';
-import 'react-router-dom';
+import React, { Component } from 'react';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './styles/source.scss';
 
 import Inicio from './paginas/Inicio'
+import RutasDesarrollo from './paginas/RutasDesarrollo'
+import Nav from './components/Nav'
 
-function App() {
-  return (
-    <>
-      <Inicio />
-    </>
-  );
+class App extends Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      selected: ''
+    }
+
+    this.onClickChangeState = this.onClickChangeState.bind(this);
+  }
+
+  onClickChangeState(state_temp) {
+    
+  }
+
+  render() {
+    return(
+      <Router>
+        <div id="container">
+          <Nav selected={this.state.selected} />
+          <Switch>
+            <Route path="/" exact component={Inicio} />
+            <Route path="/rutas-desarrollo" exact component={RutasDesarrollo} />
+          </Switch>
+        </div>
+      </Router>
+    )
+  }
 }
 
 export default App;

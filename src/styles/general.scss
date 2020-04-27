@@ -62,4 +62,25 @@
             }
         }
     }
+
+    .listado {
+        .item {
+            display: flex;
+
+            .num {
+                width: 30px;
+                height: 30px;
+                background-color: $naranja;
+                color: $claro3;
+                text-align: center;
+                line-height: 30px;
+                border-radius: 50px;
+                font-size: 0.8em;
+            }
+
+            .contenido {
+                width: calc(100% - 50px);
+            }
+        }
+    }
 }
