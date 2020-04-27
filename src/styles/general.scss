@@ -64,8 +64,10 @@
     }
 
     .listado {
+        margin-bottom: 5vh;
         .item {
             display: flex;
+            margin-bottom: 10px;
 
             .num {
                 width: 30px;
@@ -80,6 +82,12 @@
 
             .contenido {
                 width: calc(100% - 50px);
+                margin-left: 20px;
+
+                p{
+                    margin: 0;
+                    margin-bottom: 10px;
+                }
             }
         }
     }
