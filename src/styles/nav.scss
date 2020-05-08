@@ -68,10 +68,15 @@
         &.active {
              li {
                  display: block;
+                 cursor:pointer;
 
                  &.title{
                     background-color: $frost1;
                     color: $claro3;
+                 }
+
+                 &:hover {
+                     background-color: $gris4;
                  }
              }   
         }
