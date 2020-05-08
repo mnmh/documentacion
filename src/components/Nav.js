@@ -54,7 +54,10 @@ class Nav extends Component {
                 </ul>
                 <ul>
                     <li className="title">Sistema de diseño</li>
-                    <li>Paleta de colores</li>
+                    <li>¿Porque es necesario?</li>
+                    <li>¿Porque es necesario?</li>
+                    <li>Lenguaje visual </li>
+                    <li>Bloques y componentes </li>
                 </ul>
                 <ul>
                     <li className="title">Plataforma web</li>
