@@ -63,7 +63,7 @@ class Nav extends Component {
                     <Link to="sistema-diseno">
                         <li className="title" onClick={this.changeSistema}>Sistema de diseño</li>
                     </Link>
-                    <li>¿Porque es necesario?</li>
+                    <li> <a href="#porque">¿Porque es necesario? </a></li>
                     <li>Lenguaje visual </li>
                     <li>Bloques y componentes </li>
                 </ul>

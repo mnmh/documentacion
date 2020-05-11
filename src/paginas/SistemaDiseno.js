@@ -65,7 +65,111 @@ class SistemaDiseno extends Component {
                 </div>
 
                 <div id="bloques">
+                    <h2>Bloques y componentes</h2>
+                    <p> Los <b> bloques </b> son porciones de código reutilizables con las cuales se generan los bloques que construyen una interfaz. Los componentes deben ser lo más reutilizables posible, ya que esto reduce el mantenimiento necesario y la posibilidad de escalar el sistema. </p> 
+
+                    <div className="listado">
+                        <div className="item">
+                            <div className="num">1</div>
+                            <div className="contenido">
+                                <p> <b> Banners / Banner Carrusel </b>  <br/>
+                                    <b> Nombre: </b> bloque-banner-carrousel-margenes 
+                                    <br/>
+                                    <b>Descripción: </b> Un banner con un carrusel en el cual las imágenes de cada slide tienen márgenes que dejan ver el color de fondo. 
+                                </p>
+
+                                {/* Aquí va la imagen de cada bloque */}
+
+                                <p>
+                                    <b>Anatomía:</b>
+                                    <br/>
+                                    A. Título (campo) <br/>
+                                    B. Subtítulo (campo) <br/>
+                                    C. Descripción (campo) <br/>
+                                    D. Botón <br/>
+                                    E. Imagen 1120 x 570px (campo) <br/>
+                                    F. Color de Fondo <br/>
+                                    G. Flechas de navegación
+                                </p>
+                            </div>
+                        </div>
                     
+
+                        <div className="item">
+                            <div className="num">2</div>
+                            <div className="contenido">
+                                <p> <b> Banners / Banner con texto </b>  <br/>
+                                    <b> Nombre: </b> bloque-banner-texto
+                                    <br/>
+                                    <b>Descripción: </b> Un banner con una imagen que ocupa todo el espacio de fondo, un texto descriptivo y un botón.
+ 
+                                </p>
+
+                                {/* Aquí va la imagen de cada bloque */}
+
+                                <p>
+                                    <b>Anatomía:</b>
+                                    <br/>
+                                    A. Imagen de fondo 2250 x 840px (campo) <br/>
+                                    B. Título (campo) <br/>
+                                    C. Descripción (campo) <br/>
+                                    D. Botón (campo)
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div className="item">
+                            <div className="num">3</div>
+                            <div className="contenido">
+                                <p> <b> Banners / Banner columna </b>  <br/>
+                                    <b> Nombre: </b> slider-dos-columnas .full
+                                    <br/>
+                                    <b>Descripción: </b>Un banner que se divide en dos columnas: un bloque de color plano con un texto descriptivo y una imagen
+                                </p>
+
+                                {/* Aquí va la imagen de cada bloque */}
+
+                                <p>
+                                    <b>Anatomía:</b>
+                                    <br/>
+                                    A. Título (campo) <br/>
+                                    B. Subtítulo (campo) <br/>
+                                    C. Botones a redes sociales <br/>
+                                    D. Bloque de color plano (campo) <br/>
+                                    E. Imagen 1250 x 975 px (campo)
+
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="item">
+                            <div className="num">4</div>
+                            <div className="contenido">
+                                <p> <b> Banners / Banner flotante </b>  <br/>
+                                    <b> Nombre: </b> slider-slider-dos-columnas .full .half
+                                    <br/>
+                                    <b>Descripción: </b> Un banner que se divide en dos columnas: un bloque de color
+                                    plano con un texto descriptivo y una imagen flotante.
+
+                                </p>
+
+                                {/* Aquí va la imagen de cada bloque */}
+
+                                <p>
+                                    <b>Anatomía:</b>
+                                    <br/>
+                                    A. Título (campo) <br/>
+                                    B. Subtítulo (campo) <br/>
+                                    C. Descripción (campo) <br/>
+                                    D. Botones a redes sociales <br/>
+                                    E. Imagen 810 x 640px (campo) <br/>
+                                    F. Color de fondo (campo) <br/>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </section>
             </>
