@@ -61,11 +61,11 @@ class Nav extends Component {
                 </ul>
                 <ul className={(this.state.selected === '/sistema-diseno') ? 'active' : ''}>
                     <Link to="sistema-diseno">
-                        <li className="title" onClick={this.changeSistema}>Sistema de diseño</li>
+                        <li className="title" onClick={this.changeSistema}> Sistema de diseño</li>
                     </Link>
                     <li> <a href="#porque">¿Porque es necesario? </a></li>
-                    <li>Lenguaje visual </li>
-                    <li>Bloques y componentes </li>
+                    <li><a href="#lenguaje-visual">Lenguaje visual </a></li>
+                    <li><a href="#bloques">Bloques y componentes </a></li>
                 </ul>
                 <ul>
                     <li className="title">Plataforma web</li>
