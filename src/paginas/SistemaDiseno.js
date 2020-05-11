@@ -169,6 +169,52 @@ class SistemaDiseno extends Component {
                             </div>
                         </div>
 
+                        <div className="item">
+                            <div className="num">5</div>
+                            <div className="contenido">
+                                <p> <b> Banners / Header columna </b>  <br/>
+                                    <b> Nombre: </b> bloque-header-columna
+                                    <br/>
+                                    <b>Descripción: </b> Un banner con dos columnas para mostrar un texto y una imagen
+                                </p>
+
+                                {/* Aquí va la imagen de cada bloque */}
+
+                                <p>
+                                    <b>Anatomía:</b>
+                                    <br/>
+                                    A. Color sólido <br/>
+                                    B. Texto (campo) <br/>
+                                    C. Imagen 780 x 600px (campo) <br/>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="item">
+                            <div className="num">6</div>
+                            <div className="contenido">
+                                <p> <b> Banners / Banner audio </b>  <br/>
+                                    <b> Nombre: </b> bloque-personajes
+                                    <br/>
+                                    <b>Descripción: </b> Bloque que despliega tres tarjetas, cada una con un audio. Incluye un reproductor con tiempo para la reproducción.
+
+                                </p>
+
+                                {/* Aquí va la imagen de cada bloque */}
+
+                                <p>
+                                    <b>Anatomía:</b>
+                                    <br/>
+                                    A. Imagen 260 x 342 px (campo) <br/>
+                                    B. Botón <br/>
+                                    C. Título (campo) <br/>
+                                    D. Descripción (campo) <br/>
+                                    E. Reproductor <br/>
+                                    F. Bloque de color <br/>
+                                    G. Audio (campo)
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
