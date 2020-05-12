@@ -58,9 +58,12 @@ class SistemaDiseno extends Component {
                     <h2>Tipografía</h2>
                     <p><b>Para títulos y encabezados:</b> <br/>
                     <a></a>Fuente Inter @googlefonts diseñada por Rasmus Anderson </p>
+                    <img src="imagenes/00_crimson.png" />
+
 
                     <p><b>Para cuerpo de texto::</b> <br/>
                     Fuente Crimson @googlefonts diseñada por Jacques Le Bailly </p>
+                    <img src="imagenes/00_inter.png" />
 
                 </div>
 
