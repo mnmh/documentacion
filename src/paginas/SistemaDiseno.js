@@ -97,7 +97,6 @@ class SistemaDiseno extends Component {
                             </div>
                         </div>
                     
-
                         <div className="item">
                             <div className="num">2</div>
                             <div className="contenido">
@@ -120,7 +119,6 @@ class SistemaDiseno extends Component {
                                 </p>
                             </div>
                         </div>
-
 
                         <div className="item">
                             <div className="num">3</div>
@@ -218,6 +216,7 @@ class SistemaDiseno extends Component {
                                 </p>
                             </div>
                         </div>
+
                         <div className="item">
                             <div className="num">7</div>
                             <div className="contenido">
@@ -286,7 +285,6 @@ class SistemaDiseno extends Component {
                                 </p>
                             </div>
                         </div>
-
 
                         <div className="item">
                             <div className="num">10</div>
@@ -501,7 +499,6 @@ class SistemaDiseno extends Component {
                                 </p>
                             </div>
                         </div>
-
 
                         <div className="item">
                             <div className="num">20</div>
