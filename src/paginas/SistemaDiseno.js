@@ -215,6 +215,331 @@ class SistemaDiseno extends Component {
                                 </p>
                             </div>
                         </div>
+                        <div className="item">
+                            <div className="num">7</div>
+                            <div className="contenido">
+                                <p> <b> Carruseles / Carrusel columna </b>  <br/>
+                                    <b> Nombre: </b> slider-dos-columnas
+                                    <br/>
+                                    <b>Descripción: </b> Un carrusel en el que cada slide se divide en dos columnas: un bloque de color plano con un texto descriptivo y una imagen.
+                                </p>
+
+                                {/* Aquí va la imagen de cada bloque */}
+
+                                <p>
+                                    <b>Anatomía:</b>
+                                    <br/>
+                                    A. Título (campo) <br/>
+                                    B. Subtítulo (campo) <br/>
+                                    C. Enlace (campo) <br/>
+                                    D. Imagen 1250 x 975 px (campo) <br/>
+                                    E. Bloque de color (campo)
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="item">
+                            <div className="num">8</div>
+                            <div className="contenido">
+                                <p> <b> Carruseles / Carrusel botones </b>  <br/>
+                                    <b> Nombre: </b> carrousel-botones
+                                    <br/>
+                                    <b>Descripción: </b> Un carrusel con botones verticales y enlace interno que van hasta el margen de la pantalla
+
+
+                                </p>
+
+                                {/* Aquí va la imagen de cada bloque */}
+
+                                <p>
+                                    <b>Anatomía:</b>
+                                    <br/>
+                                    A. Imagen 400 x 450px (campo) <br/>
+                                    B. Botón <br/>
+                                    C. Título (campo) <br/>
+                                    D. Subtítulo (campo) <br/>
+                                    E. Botones de navegación
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="item">
+                            <div className="num">9</div>
+                            <div className="contenido">
+                                <p> <b> Carruseles / Carrusel tarjetas verticales </b>  <br/>
+                                    <b> Nombre: </b> carrousel-verticales
+                                    <br/>
+                                    <b>Descripción: </b>  Un carrusel de tarjetas verticales que se desbordan hacia el margen derecho de la pantalla
+                                </p>
+
+                                {/* Aquí va la imagen de cada bloque */}
+
+                                <p>
+                                    <b>Anatomía:</b>
+                                    <br/>
+                                    A. Imagen 515 x 700px (campo) <br/>
+                                    C. Título (campo) <br/>
+                                    D. Subtítulo (campo)
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div className="item">
+                            <div className="num">10</div>
+                            <div className="contenido">
+                                <p> <b> Carruseles / Carrusel equipo </b>  <br/>
+                                    <b> Nombre: </b> bloque-equipo
+                                    <br/>
+                                    <b>Descripción: </b> Un carrusel con tarjetas utilizado para mostrar perfiles de personas
+                                </p>
+
+                                {/* Aquí va la imagen de cada bloque */}
+
+                                <p>
+                                    <b>Anatomía:</b>
+                                    <br/>
+                                    A. Imagen 300 x 400 px (campo) <br/>
+                                    C. Título (campo)
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="item">
+                            <div className="num">11</div>
+                            <div className="contenido">
+                                <p> <b> Carruseles / Galería carrusel </b>  <br/>
+                                    <b> Nombre: </b> galeria-carrousel
+                                    <br/>
+                                    <b>Descripción: </b>  Un carrusel que permite mostrar una galería de imágenes y una descripción
+                                </p>
+
+                                {/* Aquí va la imagen de cada bloque */}
+
+                                <p>
+                                    <b>Anatomía:</b>
+                                    <br/>
+                                    A. Imagen 700 x 500px (campo) <br/>
+                                    B. Título (campo) <br/>
+                                    C. Descripción (campo) <br/>
+                                    D. Botones de navegación
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="item">
+                            <div className="num">12</div>
+                            <div className="contenido">
+                                <p> <b> Carruseles / Carrusel cifras </b>  <br/>
+                                    <b> Nombre: </b> cifra
+                                    <br/>
+                                    <b>Descripción: </b>  Un Bloque para mostrar tres cifras
+                                </p>
+
+                                {/* Aquí va la imagen de cada bloque */}
+
+                                <p>
+                                    <b>Anatomía:</b>
+                                    <br/>
+                                    A. Cifra (campo) <br/>
+                                    B. Subtítulo (campo)
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="item">
+                            <div className="num">13</div>
+                            <div className="contenido">
+                                <p> <b> Tarjetas / Tarjetas destacadas </b>  <br/>
+                                    <b> Nombre: </b> destacados-cc
+                                    <br/>
+                                    <b>Descripción: </b>  Un bloque para mostrar 2 contenidos destacados
+                                </p>
+
+                                {/* Aquí va la imagen de cada bloque */}
+
+                                <p>
+                                    <b>Anatomía:</b>
+                                    <br/>
+                                    A. Imagen 780 x 450px (campo) <br/>
+                                    B. Título (campo) <br/>
+                                    C. Subtítulo (campo)
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="item">
+                            <div className="num">14</div>
+                            <div className="contenido">
+                                <p> <b> Tarjetas / Tarjetas galerías </b>  <br/>
+                                    <b> Nombre: </b> listado-noticias
+                                    <br/>
+                                    <b>Descripción: </b>  Despliega una lista de tarjetas organizadas en cuadrícula de 4x4
+                                </p>
+
+                                {/* Aquí va la imagen de cada bloque */}
+
+                                <p>
+                                    <b>Anatomía:</b>
+                                    <br/>
+                                    A. Imagen 385 x 250px (campo) <br/>
+                                    B. Título (campo) <br/>
+                                    C. Descripción (campo) <br/>
+                                    D. Botón “Ver todas” (campo)
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="item">
+                            <div className="num">15</div>
+                            <div className="contenido">
+                                <p> <b> Tarjetas / Galería con filtro </b>  <br/>
+                                    <b> Nombre: </b> listado-noticias
+                                    <br/>
+                                    <b>Descripción: </b>  Despliega una lista de tarjetas organizadas en cuadrícula de 4x4. Se pueden filtrar los contenidos
+                                </p>
+
+                                {/* Aquí va la imagen de cada bloque */}
+
+                                <p>
+                                    <b>Anatomía:</b>
+                                    <br/>
+                                    A. Imagen 385 x 250px (campo) <br/>
+                                    B. Título (campo) <br/>
+                                    C. Descripción (campo) <br/>
+                                    D. Filtros (campo)
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="item">
+                            <div className="num">16</div>
+                            <div className="contenido">
+                                <p> <b> Tarjetas / Tarjetas arte y cultura </b>  <br/>
+                                    <b> Nombre: </b> page-obras
+                                    <br/>
+                                    <b>Descripción: </b>  Un bloque con tarjetas que muestra todas las entradas de Arte y Cultura. Se puede filtrar por tipología de obra y por autor.
+
+                                </p>
+
+                                {/* Aquí va la imagen de cada bloque */}
+
+                                <p>
+                                    <b>Anatomía:</b>
+                                    <br/>
+                                    A. Tarjetas <br/>
+                                    B. Título <br/>
+                                    C. Autores <br/>
+                                    D. Tipo de obra <br/>
+                                    E. Filtros <br/>
+                                    F. Botón “Ver más”
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="item">
+                            <div className="num">17</div>
+                            <div className="contenido">
+                                <p> <b> Tarjetas / Tres botones </b>  <br/>
+                                    <b> Nombre: </b> tres-botones
+                                    <br/>
+                                    <b>Descripción: </b> Despliega tres botones de color plano con texto superpuesto
+                                </p>
+
+                                {/* Aquí va la imagen de cada bloque */}
+
+                                <p>
+                                    <b>Anatomía:</b>
+                                    <br/>
+                                    A. Bloque de color plano <br/>
+                                    B. Título (campo) <br/>
+                                    C. Enlace (campo)
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="item">
+                            <div className="num">18</div>
+                            <div className="contenido">
+                                <p> <b> Tarjetas / Tres botones v2 </b>  <br/>
+                                    <b> Nombre: </b> tres-botones-segunda
+                                    <br/>
+                                    <b>Descripción: </b> Despliega tres botones 
+                                </p>
+
+                                {/* Aquí va la imagen de cada bloque */}
+
+                                <p>
+                                    <b>Anatomía:</b>
+                                    <br/>
+                                    A. Imagen 520 x 390px (campo) <br/>
+                                    B. Botón <br/>
+                                    C. Descripción (campo)
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="item">
+                            <div className="num">19</div>
+                            <div className="contenido">
+                                <p> <b> Otros bloques / Título bloque </b>  <br/>
+                                    <b> Nombre: </b> titulo-modulo
+                                    <br/>
+                                    <b>Descripción: </b> Bloque para visualizar el título de un bloque
+                                </p>
+
+                                {/* Aquí va la imagen de cada bloque */}
+
+                                <p>
+                                    <b>Anatomía:</b>
+                                    <br/>
+                                    A. Título (campo) <br/>
+                                    B. Subtítulo (campo)
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div className="item">
+                            <div className="num">20</div>
+                            <div className="contenido">
+                                <p> <b> Otros bloques / Título módulo </b>  <br/>
+                                    <b> Nombre: </b> titulo-modulo .center
+                                    <br/>
+                                    <b>Descripción: </b> Bloque para visualizar el título de un módulo
+                                </p>
+
+                                {/* Aquí va la imagen de cada bloque */}
+
+                                <p>
+                                    <b>Anatomía:</b>
+                                    <br/>
+                                    A. Título (campo) <br/>
+                                    B. Subtítulo (campo)
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="item">
+                            <div className="num">21</div>
+                            <div className="contenido">
+                                <p> <b> Otros bloques / Calendario </b>  <br/>
+                                    <b> Nombre: </b> bloque-bloque-agenda
+                                    <br/>
+                                    <b>Descripción: </b> Despliega un calendario y muestra los eventos que están por venir
+                                </p>
+
+                                {/* Aquí va la imagen de cada bloque */}
+
+                                <p>
+                                    <b>Anatomía:</b>
+                                    <br/>
+                                    A. Título mes <br/>
+                                    B. Cuadrícula días <br/>
+                                    C. Eventos por venir
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
