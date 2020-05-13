@@ -72,7 +72,7 @@ class SistemaDiseno extends Component {
                     <p> Los <b> bloques </b> son porciones de código reutilizables con las cuales se generan los bloques que construyen una interfaz. Los componentes deben ser lo más reutilizables posible, ya que esto reduce el mantenimiento necesario y la posibilidad de escalar el sistema. </p> 
 
                     <div className="listado">
-                        <div className="item">
+                        <div className="item btm">
                             <div className="num">1</div>
                             <div className="contenido">
                                 <p> <b> Banners / Banner Carrusel </b>  <br/>
@@ -81,7 +81,7 @@ class SistemaDiseno extends Component {
                                     <b>Descripción: </b> Un banner con un carrusel en el cual las imágenes de cada slide tienen márgenes que dejan ver el color de fondo. 
                                 </p>
 
-                                {/* Aquí va la imagen de cada bloque */}
+                                <img src="imagenes/01_bloque.png" />
 
                                 <p>
                                     <b>Anatomía:</b>
@@ -97,7 +97,7 @@ class SistemaDiseno extends Component {
                             </div>
                         </div>
                     
-                        <div className="item">
+                        <div className="item btm">
                             <div className="num">2</div>
                             <div className="contenido">
                                 <p> <b> Banners / Banner con texto </b>  <br/>
@@ -107,7 +107,7 @@ class SistemaDiseno extends Component {
  
                                 </p>
 
-                                {/* Aquí va la imagen de cada bloque */}
+                                <img src="imagenes/02_bloque.png" />
 
                                 <p>
                                     <b>Anatomía:</b>
@@ -120,7 +120,7 @@ class SistemaDiseno extends Component {
                             </div>
                         </div>
 
-                        <div className="item">
+                        <div className="item btm">
                             <div className="num">3</div>
                             <div className="contenido">
                                 <p> <b> Banners / Banner columna </b>  <br/>
@@ -129,7 +129,7 @@ class SistemaDiseno extends Component {
                                     <b>Descripción: </b>Un banner que se divide en dos columnas: un bloque de color plano con un texto descriptivo y una imagen
                                 </p>
 
-                                {/* Aquí va la imagen de cada bloque */}
+                                <img src="imagenes/03_bloque.png" />
 
                                 <p>
                                     <b>Anatomía:</b>
@@ -144,7 +144,7 @@ class SistemaDiseno extends Component {
                             </div>
                         </div>
 
-                        <div className="item">
+                        <div className="item btm">
                             <div className="num">4</div>
                             <div className="contenido">
                                 <p> <b> Banners / Banner flotante </b>  <br/>
@@ -155,7 +155,7 @@ class SistemaDiseno extends Component {
 
                                 </p>
 
-                                {/* Aquí va la imagen de cada bloque */}
+                                <img src="imagenes/04_bloque.png" />
 
                                 <p>
                                     <b>Anatomía:</b>
@@ -170,7 +170,7 @@ class SistemaDiseno extends Component {
                             </div>
                         </div>
 
-                        <div className="item">
+                        <div className="item btm">
                             <div className="num">5</div>
                             <div className="contenido">
                                 <p> <b> Banners / Header columna </b>  <br/>
@@ -179,7 +179,7 @@ class SistemaDiseno extends Component {
                                     <b>Descripción: </b> Un banner con dos columnas para mostrar un texto y una imagen
                                 </p>
 
-                                {/* Aquí va la imagen de cada bloque */}
+                                <img src="imagenes/05_bloque.png" />
 
                                 <p>
                                     <b>Anatomía:</b>
@@ -191,7 +191,7 @@ class SistemaDiseno extends Component {
                             </div>
                         </div>
 
-                        <div className="item">
+                        <div className="item btm">
                             <div className="num">6</div>
                             <div className="contenido">
                                 <p> <b> Banners / Banner audio </b>  <br/>
@@ -201,7 +201,7 @@ class SistemaDiseno extends Component {
 
                                 </p>
 
-                                {/* Aquí va la imagen de cada bloque */}
+                                <img src="imagenes/06_bloque.png" />
 
                                 <p>
                                     <b>Anatomía:</b>
@@ -217,7 +217,7 @@ class SistemaDiseno extends Component {
                             </div>
                         </div>
 
-                        <div className="item">
+                        <div className="item btm">
                             <div className="num">7</div>
                             <div className="contenido">
                                 <p> <b> Carruseles / Carrusel columna </b>  <br/>
@@ -226,7 +226,7 @@ class SistemaDiseno extends Component {
                                     <b>Descripción: </b> Un carrusel en el que cada slide se divide en dos columnas: un bloque de color plano con un texto descriptivo y una imagen.
                                 </p>
 
-                                {/* Aquí va la imagen de cada bloque */}
+                                <img src="imagenes/07_bloque.png" />
 
                                 <p>
                                     <b>Anatomía:</b>
@@ -240,7 +240,7 @@ class SistemaDiseno extends Component {
                             </div>
                         </div>
 
-                        <div className="item">
+                        <div className="item btm">
                             <div className="num">8</div>
                             <div className="contenido">
                                 <p> <b> Carruseles / Carrusel botones </b>  <br/>
@@ -251,7 +251,7 @@ class SistemaDiseno extends Component {
 
                                 </p>
 
-                                {/* Aquí va la imagen de cada bloque */}
+                                <img src="imagenes/08_bloque.png" />
 
                                 <p>
                                     <b>Anatomía:</b>
@@ -265,7 +265,7 @@ class SistemaDiseno extends Component {
                             </div>
                         </div>
 
-                        <div className="item">
+                        <div className="item btm">
                             <div className="num">9</div>
                             <div className="contenido">
                                 <p> <b> Carruseles / Carrusel tarjetas verticales </b>  <br/>
@@ -274,7 +274,7 @@ class SistemaDiseno extends Component {
                                     <b>Descripción: </b>  Un carrusel de tarjetas verticales que se desbordan hacia el margen derecho de la pantalla
                                 </p>
 
-                                {/* Aquí va la imagen de cada bloque */}
+                                <img src="imagenes/09_bloque.png" />
 
                                 <p>
                                     <b>Anatomía:</b>
@@ -286,7 +286,7 @@ class SistemaDiseno extends Component {
                             </div>
                         </div>
 
-                        <div className="item">
+                        <div className="item btm">
                             <div className="num">10</div>
                             <div className="contenido">
                                 <p> <b> Carruseles / Carrusel equipo </b>  <br/>
@@ -295,7 +295,7 @@ class SistemaDiseno extends Component {
                                     <b>Descripción: </b> Un carrusel con tarjetas utilizado para mostrar perfiles de personas
                                 </p>
 
-                                {/* Aquí va la imagen de cada bloque */}
+                                <img src="imagenes/10_bloque.png" />
 
                                 <p>
                                     <b>Anatomía:</b>
@@ -306,7 +306,7 @@ class SistemaDiseno extends Component {
                             </div>
                         </div>
 
-                        <div className="item">
+                        <div className="item btm">
                             <div className="num">11</div>
                             <div className="contenido">
                                 <p> <b> Carruseles / Galería carrusel </b>  <br/>
@@ -315,7 +315,7 @@ class SistemaDiseno extends Component {
                                     <b>Descripción: </b>  Un carrusel que permite mostrar una galería de imágenes y una descripción
                                 </p>
 
-                                {/* Aquí va la imagen de cada bloque */}
+                                <img src="imagenes/11_bloque.png" />
 
                                 <p>
                                     <b>Anatomía:</b>
@@ -328,7 +328,7 @@ class SistemaDiseno extends Component {
                             </div>
                         </div>
 
-                        <div className="item">
+                        <div className="item btm">
                             <div className="num">12</div>
                             <div className="contenido">
                                 <p> <b> Carruseles / Carrusel cifras </b>  <br/>
@@ -337,7 +337,7 @@ class SistemaDiseno extends Component {
                                     <b>Descripción: </b>  Un Bloque para mostrar tres cifras
                                 </p>
 
-                                {/* Aquí va la imagen de cada bloque */}
+                                <img src="imagenes/12_bloque.png" />
 
                                 <p>
                                     <b>Anatomía:</b>
@@ -348,7 +348,7 @@ class SistemaDiseno extends Component {
                             </div>
                         </div>
 
-                        <div className="item">
+                        <div className="item btm">
                             <div className="num">13</div>
                             <div className="contenido">
                                 <p> <b> Tarjetas / Tarjetas destacadas </b>  <br/>
@@ -357,7 +357,7 @@ class SistemaDiseno extends Component {
                                     <b>Descripción: </b>  Un bloque para mostrar 2 contenidos destacados
                                 </p>
 
-                                {/* Aquí va la imagen de cada bloque */}
+                                <img src="imagenes/13_bloque.png" />
 
                                 <p>
                                     <b>Anatomía:</b>
@@ -369,7 +369,7 @@ class SistemaDiseno extends Component {
                             </div>
                         </div>
 
-                        <div className="item">
+                        <div className="item btm">
                             <div className="num">14</div>
                             <div className="contenido">
                                 <p> <b> Tarjetas / Tarjetas galerías </b>  <br/>
@@ -378,7 +378,7 @@ class SistemaDiseno extends Component {
                                     <b>Descripción: </b>  Despliega una lista de tarjetas organizadas en cuadrícula de 4x4
                                 </p>
 
-                                {/* Aquí va la imagen de cada bloque */}
+                                <img src="imagenes/14_bloque.png" />
 
                                 <p>
                                     <b>Anatomía:</b>
@@ -391,7 +391,7 @@ class SistemaDiseno extends Component {
                             </div>
                         </div>
 
-                        <div className="item">
+                        <div className="item btm">
                             <div className="num">15</div>
                             <div className="contenido">
                                 <p> <b> Tarjetas / Galería con filtro </b>  <br/>
@@ -400,7 +400,7 @@ class SistemaDiseno extends Component {
                                     <b>Descripción: </b>  Despliega una lista de tarjetas organizadas en cuadrícula de 4x4. Se pueden filtrar los contenidos
                                 </p>
 
-                                {/* Aquí va la imagen de cada bloque */}
+                                <img src="imagenes/15_bloque.png" />
 
                                 <p>
                                     <b>Anatomía:</b>
@@ -413,7 +413,7 @@ class SistemaDiseno extends Component {
                             </div>
                         </div>
 
-                        <div className="item">
+                        <div className="item btm">
                             <div className="num">16</div>
                             <div className="contenido">
                                 <p> <b> Tarjetas / Tarjetas arte y cultura </b>  <br/>
@@ -423,7 +423,7 @@ class SistemaDiseno extends Component {
 
                                 </p>
 
-                                {/* Aquí va la imagen de cada bloque */}
+                                <img src="imagenes/16_bloque.png" />
 
                                 <p>
                                     <b>Anatomía:</b>
@@ -438,7 +438,7 @@ class SistemaDiseno extends Component {
                             </div>
                         </div>
 
-                        <div className="item">
+                        <div className="item btm">
                             <div className="num">17</div>
                             <div className="contenido">
                                 <p> <b> Tarjetas / Tres botones </b>  <br/>
@@ -447,7 +447,7 @@ class SistemaDiseno extends Component {
                                     <b>Descripción: </b> Despliega tres botones de color plano con texto superpuesto
                                 </p>
 
-                                {/* Aquí va la imagen de cada bloque */}
+                                <img src="imagenes/17_bloque.png" />
 
                                 <p>
                                     <b>Anatomía:</b>
@@ -459,7 +459,7 @@ class SistemaDiseno extends Component {
                             </div>
                         </div>
 
-                        <div className="item">
+                        <div className="item btm">
                             <div className="num">18</div>
                             <div className="contenido">
                                 <p> <b> Tarjetas / Tres botones v2 </b>  <br/>
@@ -468,7 +468,7 @@ class SistemaDiseno extends Component {
                                     <b>Descripción: </b> Despliega tres botones 
                                 </p>
 
-                                {/* Aquí va la imagen de cada bloque */}
+                                <img src="imagenes/18_bloque.png" />
 
                                 <p>
                                     <b>Anatomía:</b>
@@ -480,7 +480,7 @@ class SistemaDiseno extends Component {
                             </div>
                         </div>
 
-                        <div className="item">
+                        <div className="item btm">
                             <div className="num">19</div>
                             <div className="contenido">
                                 <p> <b> Otros bloques / Título bloque </b>  <br/>
@@ -489,7 +489,7 @@ class SistemaDiseno extends Component {
                                     <b>Descripción: </b> Bloque para visualizar el título de un bloque
                                 </p>
 
-                                {/* Aquí va la imagen de cada bloque */}
+                                <img src="imagenes/19_bloque.png" />
 
                                 <p>
                                     <b>Anatomía:</b>
@@ -500,7 +500,7 @@ class SistemaDiseno extends Component {
                             </div>
                         </div>
 
-                        <div className="item">
+                        <div className="item btm">
                             <div className="num">20</div>
                             <div className="contenido">
                                 <p> <b> Otros bloques / Título módulo </b>  <br/>
@@ -509,7 +509,7 @@ class SistemaDiseno extends Component {
                                     <b>Descripción: </b> Bloque para visualizar el título de un módulo
                                 </p>
 
-                                {/* Aquí va la imagen de cada bloque */}
+                                <img src="imagenes/20_bloque.png" />
 
                                 <p>
                                     <b>Anatomía:</b>
@@ -520,7 +520,7 @@ class SistemaDiseno extends Component {
                             </div>
                         </div>
 
-                        <div className="item">
+                        <div className="item btm">
                             <div className="num">21</div>
                             <div className="contenido">
                                 <p> <b> Otros bloques / Calendario </b>  <br/>
@@ -529,7 +529,7 @@ class SistemaDiseno extends Component {
                                     <b>Descripción: </b> Despliega un calendario y muestra los eventos que están por venir
                                 </p>
 
-                                {/* Aquí va la imagen de cada bloque */}
+                                <img src="imagenes/21_bloque.png" />
 
                                 <p>
                                     <b>Anatomía:</b>
