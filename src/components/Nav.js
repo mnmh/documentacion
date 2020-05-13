@@ -11,6 +11,7 @@ class Nav extends Component {
 
         this.changeInicio = this.changeInicio.bind(this)
         this.changeRuta = this.changeRuta.bind(this)
+        this.changeSistema = this.changeRuta.bind(this)
     }
 
     changeInicio() {
@@ -22,6 +23,12 @@ class Nav extends Component {
     changeRuta() {
         this.setState({
             selected: '/rutas-desarrollo'
+        })
+    }
+
+    changeSistema() {
+        this.setState({
+            selected: '/sistema-diseno'
         })
     }
 
@@ -52,9 +59,13 @@ class Nav extends Component {
                 <ul>
                     <li className="title">Cajas de memoria</li>
                 </ul>
-                <ul>
-                    <li className="title">Sistema de diseño</li>
-                    <li>Paleta de colores</li>
+                <ul className={(this.state.selected === '/sistema-diseno') ? 'active' : ''}>
+                    <Link to="sistema-diseno">
+                        <li className="title" onClick={this.changeSistema}> Sistema de diseño</li>
+                    </Link>
+                    <li> <a href="#porque">¿Porque es necesario? </a></li>
+                    <li><a href="#lenguaje-visual">Lenguaje visual </a></li>
+                    <li><a href="#bloques">Bloques y componentes </a></li>
                 </ul>
                 <ul>
                     <li className="title">Plataforma web</li>

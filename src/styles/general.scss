@@ -21,6 +21,12 @@
         margin-top: 7.5vh;
     }
 
+    h3 {
+        color: $gris1;
+        font-weight: normal;
+        font-size: 22px;
+    }
+
     p{
         font-family: 'Roboto Slab';
         color: $gris1;
@@ -28,6 +34,12 @@
         b {
             color: $rojo;
         }
+    }
+
+    img {
+        max-width: 100%;
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
 
     .link {
@@ -69,6 +81,10 @@
             display: flex;
             margin-bottom: 10px;
 
+            &.btm {
+                margin-bottom: 3em;
+            }
+
             .num {
                 width: 30px;
                 height: 30px;
@@ -91,4 +107,6 @@
             }
         }
     }
+
+   
 }
