@@ -97,22 +97,158 @@ class VocesMemoria extends Component {
                     Para el funcionamiento de las funcionalidades del especial, cada ilustración debe ser <b> un único path en formato svg</b> cuyo código se pega directamente en el html del especial. Para construir las ilustraciones se puede usar un software como illustrator.ai, figma, adobe.xd, etc. 
                     </p>
 
-
-
-                    {/*<div className="listado">
-                    <div className="item btm">
+                    {/*Home*/}
+                    <h2>Home</h2>
+                    <div className="listado">
+                        <div className="item btm">
                             <div className="num">1</div>
                             <div className="contenido">
-                            <p>Tipografía</p>
-
+                                <p><b>Ilustración principal</b></p>
+                                <br/>
+                                <p>
+                                En la página index.html buscar el tag <b>section</b> con clases <b>.hero</b> e <b>.inicio</b>reemplazar el código svg al interior de esta sección
+                                </p>
                             </div>
                         </div>
 
-                    </div> */}
+                        <div className="item btm">
+                            <div className="num">2</div>
+                            <div className="contenido">
+                                <p><b>Ilustraciones Menú</b></p>
+                                <br/>
+                                <p>
+                                En la página index.html buscar el tag <b>section</b> con clase <b>.menu</b>. Aquí encontrará una lista con 5 enlaces, reemplace el código svg con el de sus ilustraciones
+                                </p>
+                            </div>
+                        </div>
 
+                        <div className="item btm">
+                            <div className="num">3</div>
+                            <div className="contenido">
+                                <p><b>Animaciones css</b></p>
+                                <br/>
+                                <p>
+                                Después de remplazar las ilustraciones en el Home, se deben ajustar las animaciones en css
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/*Página de obra*/}
+                    <h2>Página de obra</h2>
+                    <div className="listado">
+                        <div className="item btm">
+                            <div className="num">1</div>
+                            <div className="contenido">
+                                <p><b>Ilustración principal</b></p>
+                                <br/>
+                                <p>
+                                En la página index.html buscar el tag <b>section</b> con clases <b>.hero</b> e <b>.inicio</b>reemplazar el código svg al interior de esta sección
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="item btm">
+                            <div className="num">2</div>
+                            <div className="contenido">
+                                <p><b>Audio</b></p>
+                                <br/>
+                                <p>
+                                    Buscar el tag <b>audio</b> y reemplazar la ruta al archivo de  audio
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="item btm">
+                            <div className="num">3</div>
+                            <div className="contenido">
+                                <p><b>Sección dibujo</b></p>
+                                <br/>
+                                <p>
+                                    En esta sección se encuentran los subtítulos del audio, las imágenes y los parámetros para que el código funcione correctamente.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="item btm">
+                            <div className="num">4</div>
+                            <div className="contenido">
+                                <p><b>Contexto histórico</b></p>
+                                <br/>
+                                <p>
+                                Buscar el tag <b>section</b> con clase <b>.contexto</b> y reemplazar el texto
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="item btm">
+                            <div className="num">5</div>
+                            <div className="contenido">
+                                <p><b>Contexto histórico</b></p>
+                                <br/>
+                                <p>
+                                    Para cada una de las imagénes en el tag <b>section</b> con clase <b>.galería</b> reemplazar:
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
                 <div id="bga-scripts">
-                    <h2>Voces de la memoria</h2>
+                    <h2>Scripts de javascript</h2>
+
+                    <div className="listado">
+                        <div className="item btm">
+                            <div className="num">1</div>
+                            <div className="contenido">
+                                <p> <b>modal.js</b> </p>
+                                
+                                <p>
+                                    Este es el script que maneja la funcionalidad de la galería de imágenes.
+                                </p>
+                                <p>
+                                    Cada vez que se hace clic en una de los tags <b>a</b> de la galería, se muestra un div de clase <b>.modal</b> que tiene propiedad de display:none en la página de obra. Adicional a esto, dentro del modal se visualiza todo el contenido del tag a, es decir, la imagen y el texto que se encuentre en su interior.
+                                </p>
+                                <p>
+                                    Para cerrar el modal y volver a la galería basta con hacer clic en el div con clase .modal-close.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="listado">
+                        <div className="item btm">
+                            <div className="num">1</div>
+                            <div className="contenido">
+                                <p> <b>script.js</b> </p>
+                                
+                                <p>
+                                Este es el script que maneja la funcionalidad de control de audio y animación de ilustraciones en las páginas de obra.
+
+                                </p>
+                                <p>
+                                    En primer lugar se declaran las variables necesarias para el funcionamiento del script:
+                                </p>
+                                <p>
+                                    Se crearon funciones para controlar la reproducción del audio:
+                                </p>
+                                <p>
+                                    Existe también una función para que el audio se reproduzca automáticamente cuando el usuario haga scroll en la página:
+                                </p>
+                                <p>
+                                    Las siguientes funciones se encargan de la posibilidad de avanzar o retroceder entre secciones:
+                                </p>
+                                <p>
+                                    Finalmente, para realizar la animación del path existen 3 pasos: primero, crear una variable donde se guarda la animación:
+                                </p>
+
+                                <p>Luego, preparar el css de animación del path</p>
+                                <p>y por último, llamar a la animación en la función <b>updateValues()</b></p>
+
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </section>
             </>
