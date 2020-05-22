@@ -12,7 +12,7 @@ class Nav extends Component {
         this.changeInicio = this.changeInicio.bind(this)
         this.changeRuta = this.changeRuta.bind(this)
         this.changeSistema = this.changeSistema.bind(this)
-        this.changeVo = this.changeSistema.bind(this)
+        this.changeVoces = this.changeVoces.bind(this)
     }
 
     changeInicio() {
