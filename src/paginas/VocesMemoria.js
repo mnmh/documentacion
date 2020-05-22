@@ -78,24 +78,29 @@ class VocesMemoria extends Component {
                     <p>
                         Para modificar las tipografías utilizadas en el especial primero se deben agregar los archivos a la carpeta <b>fonts/</b>. En segundo lugar se deben agregar los enlaces a las fuentes en el archivo <b>scss/estilos.scss</b>. Finalmente en el archivo scss reemplazar las variables <b>$fuente-titulos</b> y <b>$fuente-textos</b> por las tipografías a utilizar
                     </p>
+                    <img src="imagenes/voces/02.png" />
 
                     {/*Color*/}
                     <h2>Color</h2>
                     <p>
                         Para modificar los colores utilizadas en el especial basta con reemplazar las variables <b> $primario</b>, <b>$secundario</b> y <b>$fondo</b> en el archivo <b>scss/estilos.scss</b>.
                     </p>
+                    <img src="imagenes/voces/03.png" />
 
                     {/*Audio*/}
                     <h2>Reproductor de Audio</h2>
                     <p>
                     Para reemplazar los botones del reproductor de audio hay que reemplazar los archivos <b>next.svg</b>, <b>pause.svg</b>, <b>play.svg</b>, <b>prev.svg</b> de la carpeta <b>svg/</b>
                     </p>
+                    <img src="imagenes/voces/04.png" />
 
                     {/*Ilustraciones*/}
                     <h2>Ilustraciones</h2>
                     <p>
                     Para el funcionamiento de las funcionalidades del especial, cada ilustración debe ser <b> un único path en formato svg</b> cuyo código se pega directamente en el html del especial. Para construir las ilustraciones se puede usar un software como illustrator.ai, figma, adobe.xd, etc. 
                     </p>
+                    <img src="imagenes/voces/05.png" />
+                    <img src="imagenes/voces/06.png" />
 
                     {/*Home*/}
                     <h2>Home</h2>
@@ -106,7 +111,7 @@ class VocesMemoria extends Component {
                                 <p><b>Ilustración principal</b></p>
                                 <br/>
                                 <p>
-                                En la página index.html buscar el tag <b>section</b> con clases <b>.hero</b> e <b>.inicio</b>reemplazar el código svg al interior de esta sección
+                                En la página index.html buscar el tag <b>section</b> con clases <b>.hero</b> e <b>.inicio</b> y reemplazar el código svg al interior de esta sección
                                 </p>
                             </div>
                         </div>
@@ -130,6 +135,8 @@ class VocesMemoria extends Component {
                                 <p>
                                 Después de remplazar las ilustraciones en el Home, se deben ajustar las animaciones en css
                                 </p>
+                                <img src="imagenes/voces/07.png" />
+                                <img src="imagenes/voces/08.png" />
                             </div>
                         </div>
                     </div>
@@ -167,6 +174,7 @@ class VocesMemoria extends Component {
                                 <p>
                                     En esta sección se encuentran los subtítulos del audio, las imágenes y los parámetros para que el código funcione correctamente.
                                 </p>
+                                <img src="imagenes/voces/09.png" />
                             </div>
                         </div>
 
@@ -184,11 +192,12 @@ class VocesMemoria extends Component {
                         <div className="item btm">
                             <div className="num">5</div>
                             <div className="contenido">
-                                <p><b>Contexto histórico</b></p>
+                                <p><b>Galería de imágenes</b></p>
                                 <br/>
                                 <p>
                                     Para cada una de las imagénes en el tag <b>section</b> con clase <b>.galería</b> reemplazar:
                                 </p>
+                                <img src="imagenes/voces/10.png" />
                             </div>
                         </div>
                     </div>
@@ -209,9 +218,11 @@ class VocesMemoria extends Component {
                                 <p>
                                     Cada vez que se hace clic en una de los tags <b>a</b> de la galería, se muestra un div de clase <b>.modal</b> que tiene propiedad de display:none en la página de obra. Adicional a esto, dentro del modal se visualiza todo el contenido del tag a, es decir, la imagen y el texto que se encuentre en su interior.
                                 </p>
+                                <img src="imagenes/voces/11.png" />
                                 <p>
                                     Para cerrar el modal y volver a la galería basta con hacer clic en el div con clase .modal-close.
                                 </p>
+                                <img src="imagenes/voces/12.png" />
                             </div>
                         </div>
                     </div>
