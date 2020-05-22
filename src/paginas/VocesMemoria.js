@@ -11,7 +11,20 @@ class VocesMemoria extends Component {
         return (
             <>
             <section id="insideDoc">
-                <div>
+                
+                <div id="bga-intro">
+                    <h2>Voces de la memoria</h2>
+                </div>
+                <div id="bga-estructura">
+                    <h2>Voces de la memoria</h2>
+                </div>
+                <div id="bga-desarrollo">
+                    <h2>Voces de la memoria</h2>
+                </div>
+                <div id="bga-visual">
+                    <h2>Voces de la memoria</h2>
+                </div>
+                <div id="bga-scripts">
                     <h2>Voces de la memoria</h2>
                 </div>
             </section>

@@ -79,10 +79,11 @@ class Nav extends Component {
                     <Link to="voces-memoria">
                         <li className="title" onClick={this.changeVoces}> Voces de la memoria (BGA)</li>
                     </Link>
-                    <li> <a href="#">1 </a></li>
-                    <li> <a href="#">2 </a></li>
-                    <li> <a href="#">3 </a></li>
-
+                    <li> <a href="#bga-intro"> Introducción </a></li>
+                    <li> <a href="#bga-estructura"> Estructura del proyecto </a></li>
+                    <li> <a href="#bga-desarrollo"> Desarrollo </a></li>
+                    <li> <a href="#bga-visual"> Personalización del diseño visual </a></li>
+                    <li> <a href="#bga-scripts"> Scripts de JavaScript </a></li>
                 </ul>
                 <ul>
                     <li className="title">Plataforma web</li>
