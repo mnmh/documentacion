@@ -235,26 +235,36 @@ class VocesMemoria extends Component {
                                 
                                 <p>
                                 Este es el script que maneja la funcionalidad de control de audio y animación de ilustraciones en las páginas de obra.
-
                                 </p>
                                 <p>
                                     En primer lugar se declaran las variables necesarias para el funcionamiento del script:
                                 </p>
+                                <img src="imagenes/voces/13.png" />
                                 <p>
                                     Se crearon funciones para controlar la reproducción del audio:
                                 </p>
+                                <img src="imagenes/voces/14.png" />
+                                <img src="imagenes/voces/15.png" />
+                                <img src="imagenes/voces/16.png" />
+                                <img src="imagenes/voces/18.png" />
                                 <p>
                                     Existe también una función para que el audio se reproduzca automáticamente cuando el usuario haga scroll en la página:
                                 </p>
+                                <img src="imagenes/voces/19.png" />
                                 <p>
                                     Las siguientes funciones se encargan de la posibilidad de avanzar o retroceder entre secciones:
                                 </p>
+                                <img src="imagenes/voces/20.png" />
+                                <img src="imagenes/voces/21.png" />
+                                <img src="imagenes/voces/22.png" />
                                 <p>
                                     Finalmente, para realizar la animación del path existen 3 pasos: primero, crear una variable donde se guarda la animación:
                                 </p>
-
+                                <img src="imagenes/voces/23.png" />
                                 <p>Luego, preparar el css de animación del path</p>
+                                <img src="imagenes/voces/24.png" />
                                 <p>y por último, llamar a la animación en la función <b>updateValues()</b></p>
+                                <img src="imagenes/voces/25.png" />
 
                             </div>
                         </div>
