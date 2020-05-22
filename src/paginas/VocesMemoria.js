@@ -97,7 +97,7 @@ class VocesMemoria extends Component {
                     {/*Ilustraciones*/}
                     <h2>Ilustraciones</h2>
                     <p>
-                    Para el funcionamiento de las funcionalidades del especial, cada ilustración debe ser <b> un único path en formato svg</b> cuyo código se pega directamente en el html del especial. Para construir las ilustraciones se puede usar un software como illustrator.ai, figma, adobe.xd, etc. 
+                    Para el funcionamiento de las animaciones del especial, cada ilustración debe ser <b> un único path en formato svg</b> cuyo código se pega directamente en el html. Para construir las ilustraciones se puede usar software como illustrator, figma, adobe.xd, etc. 
                     </p>
                     <img src="imagenes/voces/05.png" />
                     <img src="imagenes/voces/06.png" />
@@ -111,7 +111,7 @@ class VocesMemoria extends Component {
                                 <p><b>Ilustración principal</b></p>
                                 <br/>
                                 <p>
-                                En la página index.html buscar el tag <b>section</b> con clases <b>.hero</b> e <b>.inicio</b> y reemplazar el código svg al interior de esta sección
+                                En la página <b>index.html</b> buscar el tag <b>section</b> con clases <b>.hero</b> e <b>.inicio</b> y reemplazar el código svg al interior de esta sección
                                 </p>
                             </div>
                         </div>
@@ -122,7 +122,7 @@ class VocesMemoria extends Component {
                                 <p><b>Ilustraciones Menú</b></p>
                                 <br/>
                                 <p>
-                                En la página index.html buscar el tag <b>section</b> con clase <b>.menu</b>. Aquí encontrará una lista con 5 enlaces, reemplace el código svg con el de sus ilustraciones
+                                En la página <b>index.html</b> buscar el tag <b>section</b> con clase <b>.menu</b>. Aquí encontrará una lista con 5 enlaces, reemplace el código svg con el de sus ilustraciones
                                 </p>
                             </div>
                         </div>
@@ -133,7 +133,7 @@ class VocesMemoria extends Component {
                                 <p><b>Animaciones css</b></p>
                                 <br/>
                                 <p>
-                                Después de remplazar las ilustraciones en el Home, se deben ajustar las animaciones en css
+                                Después de remplazar las ilustraciones en el home, se deben ajustar las animaciones en css
                                 </p>
                                 <img src="imagenes/voces/07.png" />
                                 <img src="imagenes/voces/08.png" />
@@ -150,7 +150,7 @@ class VocesMemoria extends Component {
                                 <p><b>Ilustración principal</b></p>
                                 <br/>
                                 <p>
-                                En la página index.html buscar el tag <b>section</b> con clases <b>.hero</b> e <b>.inicio</b>reemplazar el código svg al interior de esta sección
+                                En la página <b>index.html</b> buscar el tag <b>section</b> con clases <b>.hero</b> e <b>.inicio</b>reemplazar el código svg al interior de esta sección
                                 </p>
                             </div>
                         </div>
@@ -172,7 +172,7 @@ class VocesMemoria extends Component {
                                 <p><b>Sección dibujo</b></p>
                                 <br/>
                                 <p>
-                                    En esta sección se encuentran los subtítulos del audio, las imágenes y los parámetros para que el código funcione correctamente.
+                                    En esta sección con clase <b>.dibujo</b> se encuentran los subtítulos del audio, las imágenes y los parámetros para que el código funcione correctamente.
                                 </p>
                                 <img src="imagenes/voces/09.png" />
                             </div>
@@ -216,11 +216,11 @@ class VocesMemoria extends Component {
                                     Este es el script que maneja la funcionalidad de la galería de imágenes.
                                 </p>
                                 <p>
-                                    Cada vez que se hace clic en una de los tags <b>a</b> de la galería, se muestra un div de clase <b>.modal</b> que tiene propiedad de display:none en la página de obra. Adicional a esto, dentro del modal se visualiza todo el contenido del tag a, es decir, la imagen y el texto que se encuentre en su interior.
+                                    Cada vez que se hace clic en una de los tags <b>a</b> de la galería, se muestra un div de clase <b>.modal</b> que tiene propiedad de <b>display:none </b> en la página de obra. Adicional a esto, dentro del modal se visualiza todo el contenido del tag <b>a</b>, es decir, la imagen y el texto que se encuentran en su interior:
                                 </p>
                                 <img src="imagenes/voces/11.png" />
                                 <p>
-                                    Para cerrar el modal y volver a la galería basta con hacer clic en el div con clase .modal-close.
+                                    Para cerrar el modal y volver a la galería basta con hacer clic en el div con clase <b>.modal-close</b>:
                                 </p>
                                 <img src="imagenes/voces/12.png" />
                             </div>
@@ -261,9 +261,9 @@ class VocesMemoria extends Component {
                                     Finalmente, para realizar la animación del path existen 3 pasos: primero, crear una variable donde se guarda la animación:
                                 </p>
                                 <img src="imagenes/voces/23.png" />
-                                <p>Luego, preparar el css de animación del path</p>
+                                <p>Luego, preparar el css de animación del path:</p>
                                 <img src="imagenes/voces/24.png" />
-                                <p>y por último, llamar a la animación en la función <b>updateValues()</b></p>
+                                <p>y por último, llamar a la animación en la función <b>updateValues()</b>:</p>
                                 <img src="imagenes/voces/25.png" />
 
                             </div>
