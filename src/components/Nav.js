@@ -11,7 +11,8 @@ class Nav extends Component {
 
         this.changeInicio = this.changeInicio.bind(this)
         this.changeRuta = this.changeRuta.bind(this)
-        this.changeSistema = this.changeRuta.bind(this)
+        this.changeSistema = this.changeSistema.bind(this)
+        this.changeVoces = this.changeVoces.bind(this)
     }
 
     changeInicio() {
@@ -29,6 +30,12 @@ class Nav extends Component {
     changeSistema() {
         this.setState({
             selected: '/sistema-diseno'
+        })
+    }
+
+    changeVoces() {
+        this.setState({
+            selected: '/voces-memoria'
         })
     }
 
@@ -66,6 +73,17 @@ class Nav extends Component {
                     <li> <a href="#porque">¿Porque es necesario? </a></li>
                     <li><a href="#lenguaje-visual">Lenguaje visual </a></li>
                     <li><a href="#bloques">Bloques y componentes </a></li>
+                </ul>
+
+                <ul className={(this.state.selected === '/voces-memoria') ? 'active' : ''}>
+                    <Link to="voces-memoria">
+                        <li className="title" onClick={this.changeVoces}> Voces de la memoria</li>
+                    </Link>
+                    <li> <a href="#bga-intro"> Introducción </a></li>
+                    <li> <a href="#bga-estructura"> Estructura del proyecto </a></li>
+                    <li> <a href="#bga-desarrollo"> Desarrollo </a></li>
+                    <li> <a href="#bga-visual"> Personalización del diseño visual </a></li>
+                    <li> <a href="#bga-scripts"> Scripts de JavaScript </a></li>
                 </ul>
                 <ul>
                     <li className="title">Plataforma web</li>
