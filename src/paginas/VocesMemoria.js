@@ -14,12 +14,12 @@ class VocesMemoria extends Component {
                 
                 <div id="bga-intro">
                     <h2>Voces de la memoria</h2>
-                    {/* Imagen inicio */}
+                    <img src="imagenes/voces/01.jpg" />
                     <p>
                     Voces de la memoria es un formato de curaduría web de obras de artistas que tratan temas relacionados al conflicto armado y a la memoria histórica en Colombia. 
                     <br/>
                     <br/>
-                    En estos especiales, los artistas narran historias sobre su obra a la vez que se dibujan imágenes en la pantalla para complementar la narrativa. El primer especial de la serie Voces de la memoria corresponde a una curaduría digital de 5 obras de Beatriz González. 
+                    En estos especiales, los artistas narran historias sobre su obra a la vez quevoces se dibujan imágenes en la pantalla para complementar la narrativa. El primer especial de la serie Voces de la memoria corresponde a una curaduría digital de 5 obras de Beatriz González. 
                     <br/>
                     <br/>
                     En este documento se encuentra consignada la información para crear un especial similar a partir del código para la primera curaduría.
