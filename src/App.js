@@ -5,6 +5,7 @@ import './styles/source.scss';
 import Inicio from './paginas/Inicio'
 import RutasDesarrollo from './paginas/RutasDesarrollo'
 import SistemaDiseno from './paginas/SistemaDiseno'
+import VocesMemoria from './paginas/VocesMemoria'
 import Nav from './components/Nav'
 
 class App extends Component {
@@ -30,6 +31,7 @@ class App extends Component {
             <Route path="/" exact component={Inicio} />
             <Route path="/rutas-desarrollo" exact component={RutasDesarrollo} />
             <Route path="/sistema-diseno" exact component={SistemaDiseno} />
+            <Route path="/voces-memoria" exact component={VocesMemoria} />
           </Switch>
         </div>
       </Router>
