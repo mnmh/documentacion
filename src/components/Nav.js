@@ -77,7 +77,7 @@ class Nav extends Component {
 
                 <ul className={(this.state.selected === '/voces-memoria') ? 'active' : ''}>
                     <Link to="voces-memoria">
-                        <li className="title" onClick={this.changeVoces}> Voces de la memoria (BGA)</li>
+                        <li className="title" onClick={this.changeVoces}> Voces de la memoria</li>
                     </Link>
                     <li> <a href="#bga-intro"> Introducción </a></li>
                     <li> <a href="#bga-estructura"> Estructura del proyecto </a></li>
